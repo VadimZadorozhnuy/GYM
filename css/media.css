@@ -1,42 +1,53 @@
-@media only screen and (max-width: 1100px){
-	.section_content .wrapper{
-		width: 650px;
+@media only screen and (max-width: 1280px){
+	.top_content h1 {
+		font-size: 60px;
 	}
-	.resume .shift_down {
-		margin-bottom: 190px;
+	.top_wrapper .citate p{
+		font-size: 18px;
 	}
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1000px){
 	.top_content h1{
 		font-size: 40px;
 	}
-	.top_content h1::after{
-		margin: 70px 0 30px -100px;
-		width: 200px;
+	.top_wrapper .citate{
+		margin: 80px 0;
 	}
-	.top_mnu ul{
-		margin-top: 150px;
+	.top_wrapper .citate p{
+		font-size: 16px;
+		margin-left: 25px;
 	}
-	.section_content .wrapper{
-		width: 300px;
-	}
-	.my_photo img{
-		width: 200px;
-	}
-	.resume_container .left,
-	.resume_container .right{
-		border: none;
-		text-align: center;
-	}
-	.resume .shift_down {
-		margin-bottom: 25px;
-	}
-	.main_footer ul, .main_footer .copyright{
-		text-align: center;
-	}
-	@media only screen and (max-width: 360px){
-		.text_image_tab > label{
-			clear: both;
-		}
-	}
+	.section_content .list_block .list_square div{
+		text-align: center !important;
+    width: 100%;
+    padding: 0 !important;
+    border: none !important;
 }
+
+	@media only screen and (max-width: 800px){
+		.top_content h1{
+			font-size: 40px;
+			display: block;
+		}
+		.top_content h3 {
+			margin: 0px 0px 20px 0px;
+		}
+		.left_block .top_mnu .top_nav_bar{
+			text-align: center;
+			float: none;
+			font-size: 16px;
+		}
+		section h4 {
+			font-size: 25px;
+		}
+		.section_content .masters .column{
+			width: 100%;
+			margin: 20px 0;
+		}
+		.main_footer .left_block,
+		.main_footer .right_block {
+    width: 5%;
+}
+
+
+	}
