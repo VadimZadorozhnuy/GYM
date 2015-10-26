@@ -2,6 +2,7 @@ body{
 	font-family: "Raleway", sans-serif !important;
 	margin: 0 auto;
 	font-weight: 300;
+	min-width: 650px;
 }
 section,
 .main_head{
@@ -84,24 +85,16 @@ section,
 	text-align: right;
 	float: none;
 }
+.left_block .top_mnu{
+	border-top: 3px solid #fff;
+}
 .left_block .top_mnu .top_nav_bar{
 	text-align: right;
 	display: block;
 }
-.left_block .top_mnu .top_nav_bar::before{
-	background-color: #FFF;
-	content: "";
-	font-weight: bold;
-	height: 3px;
-	position: absolute;
-	margin: -12px -134px -58px 0px;
-	text-align: left;
-	width: 100%;
-	right: 50%;
-}
 .left_block .top_mnu .top_nav_bar li{
 	display: inline-block;
-	padding: 5px 15px;
+	padding: 10px 0px 15px 15px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
@@ -117,7 +110,7 @@ section,
 .top_wrapper .left_block{
 	display: inline-block;
 	text-align: center;
-	width: 59%;
+	width: 65%;
 }
 .top_wrapper .citate{
 	text-align: right;
@@ -139,7 +132,7 @@ section,
 	line-height: 1.5;
 }
 .top_wrapper .right_block{
-	width: 39%;
+	width: 35%;
 }
 section{
 	margin: 0 auto;
@@ -231,7 +224,7 @@ section h4{
 	font-weight: bold;
 }
 .section_content .masters .column{
-	width: 35%;
+	width: 40%;
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
