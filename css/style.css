@@ -179,10 +179,20 @@ section h4{
 	text-transform: uppercase;
 	line-height: 1.5;
 	clear: both;
+	font-size: 20px;
+	color: #AE0000;
+	margin-bottom: 30px;
 }
 .section_content .list_block{
 	margin: 25px 0 70px;
 	display: block;
+}
+.section_content .list_block h5{
+	text-transform: uppercase;
+	width: 80%;
+	margin: 0 auto;
+	letter-spacing: 1px;
+	line-height: 2;
 }
 .section_content .list_block .list_square{
 	width: 82%;
@@ -223,14 +233,36 @@ section h4{
 	color: #AE0000;
 	font-weight: bold;
 }
+.section_content .costs{
+	margin-bottom: 80px;
+}
+.section_content .costs h5{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 16px;
+}
+.section_content .costs h5:nth-child(odd){
+	font-size: 24px;
+	color: #AE0000;
+	margin-bottom: 30px;
+	text-transform: lowercase;
+}
 .section_content .masters .column{
 	width: 40%;
 	display: inline-block;
 	text-align: center;
+	vertical-align: top;
+}
+.section_content .masters .column h5{
 	text-transform: uppercase;
 	color: #AE0000;
 	font-size: 14px;
 	letter-spacing: 1px;
+}
+.section_content .masters .column p{
+	font-size: 18px;
+	letter-spacing: 1px;
+	display: inline-block;
 }
 .section_content .masters img{
 	width: 200px;
@@ -259,9 +291,11 @@ section h4{
 .info .masters{
 	margin-bottom: 70px;
 }
-.masters .column ul{
-	color: #000;
-	line-height: 2;
+.section_content .masters .master_tel img{
+	width: 80px;
+	display: inline-block;
+	margin: 0 20px 10px 0;
+	border-radius: 0;
 }
 #gallery{
 	background-color: #000;
@@ -349,28 +383,65 @@ section h4{
 }
 .carousel{
 	height: 100%;
-	width: 89%;
+	width: 80%;
 	margin: 0px auto 50px;
+}
+.carousel .carousel-inner{
+	width: 80%;
+	margin: 0 auto;
 }
 .carousel-inner .item img{
 	width: 100%;
 	text-align: center;
 	margin: 0 auto;
 }
+.carousel .carousel-control .icon-prev,
+.carousel .carousel-control .icon-next{
+	font-size: 50px;	
+}
 .carousel .carousel-control{
 	width: 6%;
 }
-.carousel .carousel-control.right{
+.carousel .carousel-control .right{
 	background-image: linear-gradient(to left, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
 }
-.carousel .carousel-control.left{
+.carousel .carousel-control .left{
 	background-image: linear-gradient(to right, transparent 0%, rgba(0, 0, 0, 0.7) 100%);
 }
-.carousel-indicators li{
-	list-style: square;
+.carousel .carousel-indicators{
+	width: 100%;
+	position: relative;
+	margin: 0px auto 15px;
+	padding: 0;
+	top: 0;
+	left: 0;
 }
-.carousel-inner .item .carousel-caption h3{
-	text-transform: uppercase;
+.carousel .carousel-indicators li{
+	text-indent: 0;
+	list-style: none;
+	width: 60px;
+	height: 40px;
+	margin: 3px;
+	border: none;
+	background-color: transparent;
+}
+.carousel .carousel-indicators img:hover{
+	transition: all 0.3s;
+	cursor: pointer;
+	border: 3px solid #fff;
+	border-radius: 0; 
+}
+.carousel .carousel-indicators .active img{
+	border: 3px solid #fff;
+	width: 60px;
+	height: 40px;
+	border-radius: 0;
+	margin: 0;
+	padding: 0;
+}
+.carousel-indicators li img{
+	width: 60px;
+	height: 40px;
 }
 .contacts{
 	margin-bottom: 40px;
@@ -384,6 +455,9 @@ section h4{
 	display: inline-block;
 	float: left;
 }
+.contacts .contact_box h4{
+	margin-bottom: 15px;
+}
 .contacts .contact_box .fa{
 	margin-top: 30px;
 	font-size: 40px;
@@ -391,7 +465,6 @@ section h4{
 }
 .contacts .contact_box p{
 	font-size: 20px;
-	color: #AE0000;
 }
 .contacts .contact_box p:nth-child(4){
 	font-size: 14px;
